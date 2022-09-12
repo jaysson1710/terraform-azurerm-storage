@@ -1,8 +1,5 @@
 
 # Configure the Azure provider
-data "azurerm_resource_group" "rg" {
-  name = var.rg
-}
 
 resource "azurerm_storage_account" "storage" {
   name                     = var.nombre_storage
